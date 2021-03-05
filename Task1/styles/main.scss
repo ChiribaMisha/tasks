@@ -1,0 +1,33 @@
+main {
+  div {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+  }
+};
+
+.ukraine {
+  background: linear-gradient(to bottom, blue 50%, yellow 50%,);
+};
+
+.japan {
+  background: radial-gradient(circle, red 50%, white 50%);
+}
+
+.iceland {
+  background: linear-gradient(90deg, transparent 27%, red 27%, red 40%, transparent 34%),
+              linear-gradient(transparent 42%, white 42%, white 46%, red 46%, red 58%, white 58%, white 62%, transparent 62%),
+              linear-gradient(90deg, mediumblue 23%, white 23%, white 28%, red 28%, red 34%, white 34%, white 45%, mediumblue 36%)
+}
+
+.czech_republic {
+  background: linear-gradient(146deg, #11457E 33%, transparent 33%) bottom/100% 50% no-repeat, 
+              linear-gradient(34deg, #11457E 33%, transparent 33%) top/100% 50% no-repeat, 
+              linear-gradient(to bottom, white 50%, #D7141A 50%);
+  height: 200px;
+}
+
+
+
+
